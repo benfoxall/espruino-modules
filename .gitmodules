@@ -1,0 +1,3 @@
+[submodule "EspruinoDocs"]
+	path = EspruinoDocs
+	url = git@github.com:espruino/EspruinoDocs.git
