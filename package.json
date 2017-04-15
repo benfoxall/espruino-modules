@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:benfoxall/espruino-modules.git",
   "author": "Ben Foxall <benfoxall@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "cjs-to-es6": "^1.0.1"
+  }
 }

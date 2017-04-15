@@ -22,3 +22,5 @@ for module in $MODULES; do
   cp $module $MODULEDIR/$BNAME.js
  fi
 done
+
+../node_modules/.bin/cjs-to-es6 $MODULEDIR/
