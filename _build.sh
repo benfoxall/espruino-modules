@@ -13,8 +13,9 @@ MODULES=`find $DOCS/devices $DOCS/modules $DOCS/boards -name "*.js"`
 for module in $MODULES; do
  if [ -f $module ]; then
 
-  echo "build.js $module"
-  node build.js $module
+  BNAME=`basename $module .js`
+
+  cp $module $BNAME.js
 
  fi
 done

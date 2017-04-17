@@ -1,19 +1,13 @@
 # espruino-modules
 
-Espruino modules exported es6 style
+Espruino modules exposed via npm
 
 ## You almost certainly don't want to use this
 
-This is an experiment to try and build [espruino modules](https://www.espruino.com/Modules) without using the web ide and using rollup es modules to create minimal builds.
-
-It didn't really work as well as I hoped, though it's up in here just in case.
+This is an experiment to try and build [espruino modules](https://www.espruino.com/Modules) with an alternative build tool. It didn't really work as well as I hoped, though it's up in here just in case it's useful at some point.
 
 ```js
-// using es2015 syntax (./es)
-import YourModuleName from 'espruino-modules/es/YourModuleName'
-
-// using common (./cjs)
-const YourModuleName = require('espruino-modules/cjs/YourModuleName')
+const YourModuleName = require('espruino-modules/YourModuleName')
 ```
 
 ### Modules:
@@ -174,6 +168,6 @@ Update the docs submodule for any updates:
 
 `git submodule foreach git pull`
 
-Run the 'build all' script to update the modules
+Run the build script to pull the modules in
 
-`./build_all.sh`
+`./_build.sh`

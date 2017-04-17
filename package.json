@@ -5,9 +5,6 @@
   "repository": "git@github.com:benfoxall/espruino-modules.git",
   "author": "Ben Foxall <benfoxall@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
-    "rollup": "^0.41.6",
-    "rollup-plugin-commonjs": "^8.0.2"
-  },
+  "devDependencies": {},
   "dependencies": {}
 }
