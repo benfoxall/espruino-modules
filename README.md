@@ -8,7 +8,7 @@ This is an experiment to try and build [espruino modules](https://www.espruino.c
 
 It didn't really work as well as I hoped, though it's up in here just in case.
 
-``js
+```js
 // using es2015 syntax (./es)
 import YourModuleName from 'espruino-modules/es/YourModuleName'
 
