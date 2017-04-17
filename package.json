@@ -6,6 +6,8 @@
   "author": "Ben Foxall <benfoxall@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "cjs-to-es6": "^1.0.1"
-  }
+    "rollup": "^0.41.6",
+    "rollup-plugin-commonjs": "^8.0.2"
+  },
+  "dependencies": {}
 }
