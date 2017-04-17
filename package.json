@@ -1,6 +1,6 @@
 {
   "name": "espruino-modules",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "main": "main.js",
   "repository": "git@github.com:benfoxall/espruino-modules.git",
   "author": "Ben Foxall <benfoxall@gmail.com>",
